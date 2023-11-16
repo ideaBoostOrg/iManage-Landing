@@ -12,16 +12,7 @@ import Staff from "@/components/Staff";
 export default function Home() {
   return (
     <>
-      <Hero />
-      <BusinessOwner/>
-      <Staff/>
-      {/* <AboutUs/> */}
-      {/* <Camp /> */}
-      {/* <Guide /> */}
-      <Features />
-      {/* <OurProcess/> */}
-      {/* <CaseStudy/> */}
-      <GetApp />
+      <CaseStudy/>
     </>
   )
 }

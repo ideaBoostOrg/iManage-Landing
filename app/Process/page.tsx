@@ -9,19 +9,10 @@ import Hero from "@/components/Hero";
 import OurProcess from "@/components/OurProcess";
 import Staff from "@/components/Staff";
 
-export default function Home() {
+export default function Process() {
   return (
     <>
-      <Hero />
-      <BusinessOwner/>
-      <Staff/>
-      {/* <AboutUs/> */}
-      {/* <Camp /> */}
-      {/* <Guide /> */}
-      <Features />
-      {/* <OurProcess/> */}
-      {/* <CaseStudy/> */}
-      <GetApp />
+      <OurProcess/>
     </>
   )
 }
