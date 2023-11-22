@@ -1,3 +1,4 @@
+'use client'
 import AboutUs from "@/components/AboutUs";
 import BusinessOwner from "@/components/BusinessOwner";
 import Camp from "@/components/Camp";
