@@ -14,7 +14,7 @@ const Hero = () => {
           height={50}
           className="absolute left-[-5px] top-[-30px] w-10 lg:w-[50px]"
         /> */}
-        <h1 className="bold-52 lg:bold-88">Revolutionize Your Cleaning Business with iManage!</h1>
+        <h1 className="bold-52 lg:bold-48">Revolutionize Your Cleaning Business with iManage!</h1>
         <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
           Elevate Your Cleaning Business with our all in one App and Portal
           Solution Effortlessly oversee your cleaning business, from job
