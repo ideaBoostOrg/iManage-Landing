@@ -1,6 +1,4 @@
-import { FEATURES } from "@/constants";
 import Image from "next/image";
-import React from "react";
 
 const AboutUs = () => {
   return (
@@ -31,12 +29,12 @@ const AboutUs = () => {
               management as efficient, transparent, and effortless as possible.
               We are deeply committed to serving our community as a proud local
               Australian team. We've created a comprehensive platform that
-              caters to business owners, clients, and cleaners' unique needs.<br/><br/>
+              caters to business owners, clients, and cleaners' unique needs.<br /><br />
               Effective communication is the cornerstone of our system,
               fostering collaboration between clients and business owners
-              through the Contact Us page.<br/><br/> At iManage, we believe that the
+              through the Contact Us page.<br /><br /> At iManage, we believe that the
               future of clean lies in innovation, transparency, and efficiency.
-              We invite you to join us in shaping this future.<br/><br/> Contact us today,
+              We invite you to join us in shaping this future.<br /><br /> Contact us today,
               and let's embark on a journey of redefining how you manage your
               cleaning business. Together, we'll unlock its true potential and
               set a new standard for excellence in the cleaning industry.
@@ -69,11 +67,11 @@ const FeatureItem = ({ title, icon, description }: FeatureItem) => {
   return (
     <li className="flex w-full flex-1 flex-col items-start">
       <div className="rounded-full p-4 lg:p-7 bg-green-50">
-        <Image src={icon} alt="map" width={28} height={28} />
+        <Image src={ icon } alt="map" width={ 28 } height={ 28 } />
       </div>
-      <h2 className="bold-20 lg:bold-32 mt-5 capitalize">{title}</h2>
+      <h2 className="bold-20 lg:bold-32 mt-5 capitalize">{ title }</h2>
       <p className="regular-16 mt-5 bg-white/80 text-gray-30 lg:mt-[30px] lg:bg-none">
-        {description}
+        { description }
       </p>
     </li>
   );
