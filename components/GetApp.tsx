@@ -7,22 +7,23 @@ const GetApp = () => {
     <section className="flexCenter w-full flex-col pb-[100px]">
       <div className="get-app">
         <div className="z-20 flex w-full flex-1 flex-col items-start justify-center gap-12">
-          <h2 className="bold-40 lg:bold-64 xl:max-w-[320px]">Get for free now!</h2>
-          <p className="regular-16 text-gray-10">Available on iOS and Android</p>
-          <div className="flex w-full flex-col gap-3 whitespace-nowrap xl:flex-row">
-            <Button 
+          <h2 className="bold-40 lg:bold-58 xl:max-w-[520px]">Get in Touch with Us - Let's Talk Clean!</h2>
+          <p className="regular-16 text-gray-10">Ready to embark on a journey towards cleaner, more efficient operations? We're just a message away. Contact us today to discuss how we can transform your cleaning business with our innovative solutions.</p>
+          <p className="regular-16 text-gray-10">Whether you have questions, need assistance, or want to explore the possibilities, we're here. Drop us a line, and let's redefine clean together!</p>
+          <div className="flex w-full flex-col xl:flex-row justify-center">
+            {/* <Button 
               type="button"
-              title="App Store"
-              icon="/apple.svg"
+              title="Schedule Meeting"
+              // icon="/apple.svg"
               variant="btn_white"
               full
-            />
+            /> */}
             <Button 
               type="button"
-              title="Play Store"
-              icon="/android.svg"
-              variant="btn_dark_green_outline"
-              full
+              title="Schedule Meeting"
+              // icon="/apple.svg"
+              variant="btn_white"
+              // full
             />
           </div>
         </div>
