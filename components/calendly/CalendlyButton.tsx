@@ -26,9 +26,9 @@ const CalendlyButton = ({ headerBtn = true }) => {
 
     const openPopupWidget = () => {
         console.log("Clicked")
-        window.Calendly.showPopupWidget(
-            "https://calendly.com/ideaboostpvtltd/demo"
-        );
+        // window.calendly.showPopupWidget(
+        //     "https://calendly.com/ideaboostpvtltd/demo"
+        // );
     };
 
     return (
