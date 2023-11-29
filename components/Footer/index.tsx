@@ -47,7 +47,7 @@ const Footer = () => {
                 href="#"
                 className="text-itemtitle font-medium text-black dark:text-white"
               >
-                hello@solid.com
+                hello@imanage.services
               </a>
             </motion.div>
 
@@ -292,7 +292,7 @@ const Footer = () => {
             className="animate_top"
           >
             <p>
-              &copy; { new Date().getFullYear() } Solid. All rights reserved
+              &copy; { new Date().getFullYear() } iManage. All rights reserved
             </p>
           </motion.div>
 
