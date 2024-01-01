@@ -12,7 +12,7 @@ const Integration = () => {
           <SectionHeader
             headerInfo={ {
               title: `INTEGRATIONS`,
-              subtitle: `Seamless Integrations for Effortless Cleaning Job Management.`,
+              subtitle: `Seamless Integrations for Cleaning Management.`,
               description: `Elevate your cleaning business with iManage's seamless integration capabilities. Our application is designed to effortlessly integrate with you business process, streamlining your operations and enhancing overall efficiency.`,
             } }
           />
