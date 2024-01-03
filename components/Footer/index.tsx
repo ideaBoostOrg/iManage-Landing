@@ -77,7 +77,7 @@ const Footer = () => {
                 <ul>
                   <li>
                     <a
-                      href="#"
+                      href="/"
                       className="mb-3 inline-block hover:text-primary"
                     >
                       Home
@@ -85,26 +85,26 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="/#features"
                       className="mb-3 inline-block hover:text-primary"
                     >
-                      Product
+                      Features
                     </a>
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="/about"
                       className="mb-3 inline-block hover:text-primary"
                     >
-                      Careers
+                      About
                     </a>
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="/process"
                       className="mb-3 inline-block hover:text-primary"
                     >
-                      Pricing
+                      Our Process
                     </a>
                   </li>
                 </ul>
@@ -135,23 +135,23 @@ const Footer = () => {
                 <ul>
                   <li>
                     <a
-                      href="#"
+                      href="/about"
                       className="mb-3 inline-block hover:text-primary"
                     >
                       Company
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a
                       href="#"
                       className="mb-3 inline-block hover:text-primary"
                     >
-                      Press media
+                      
                     </a>
-                  </li>
+                  </li> */}
                   <li>
                     <a
-                      href="#"
+                      href="/blog"
                       className="mb-3 inline-block hover:text-primary"
                     >
                       Our Blog
@@ -159,7 +159,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="/#support"
                       className="mb-3 inline-block hover:text-primary"
                     >
                       Contact Us
